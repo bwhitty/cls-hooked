@@ -4,7 +4,8 @@
   "description": "CLS using AsynWrap instead of async-listener - Node >= 4.7.0",
   "main": "context.js",
   "files": [
-    "context.js"
+    "context.js",
+    "async-hook-forked"
   ],
   "scripts": {
     "test": "mocha test/*.js & tap test/tap/*.tap.js",
@@ -31,7 +32,6 @@
     "node": "^4.7 || >=6.9 || >=7.3"
   },
   "dependencies": {
-    "async-hook-jl": "^1.7.5",
     "emitter-listener": "^1.0.1"
   },
   "devDependencies": {
