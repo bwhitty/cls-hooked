@@ -3,7 +3,7 @@
 const util = require('util');
 const assert = require('assert');
 const wrapEmitter = require('emitter-listener');
-const asyncHook = require('./async-hooked-forked');
+const asyncHook = require('./async-hook-forked');
 
 const CONTEXTS_SYMBOL = 'cls@contexts';
 const ERROR_SYMBOL = 'error@context';
